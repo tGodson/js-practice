@@ -6,5 +6,5 @@ const mainFunction = (arr, callback) => {
 const arr = [1,2,3,4,5];
 
 mainFunction(arr, function() {
-console.log("you did it", arr);
+  console.log("you did it", arr);
 });
